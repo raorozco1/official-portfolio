@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Rhosley Arman Orozco - BSIT Student and Passionate Developer focused on clean UI/UX and visual tech.">
+    <meta name="keywords" content="R.A Orozco, Portfolio, Developer, UI/UX, BSIT, EARIST Manila">
+
+    <!-- OpenGraph for LinkedIn/Facebook -->
+    <meta property="og:title" content="R.A Orozco | Portfolio">
+    <meta property="og:description"
+        content="BSIT Student & Passionate Developer based in Manila. Focused on clean, intuitive, and high-performance digital solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://raorozco1.github.io/"> <!-- Placeholder: Update with your real link -->
+    <meta property="og:image" content="./Rhosley_Arman_Orozco_thumb.png"> <!-- LinkedIn preview image -->
+
+    <title>R.A Orozco | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Magnetic Cursor Element -->
+    <div class="cursor"></div>
+
+    <nav class="animate-on-load delay-1">
+        <div class="logo">R.A OROZCO</div>
+        <div class="nav-pill">
+            <div class="nav-links">
+                <a data-target="about" class="nav-link">About</a>
+                <a data-target="projects" class="nav-link">Work</a>
+                <a data-target="tech" class="nav-link">Stack</a>
+                <a data-target="honors" class="nav-link">Certs</a>
+                <a data-target="contact" class="nav-link">Contact</a>
+                <a href="./Resume.pdf" class="nav-link view-resume resume-btn"
+                    style="color: var(--accent); font-weight: 800; border: 1px solid var(--accent); padding: 5px 15px; border-radius: 50px; margin-left: 10px;">CV</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/raorozco1" target="_blank" class="social-link" title="GitHub">GH</a>
+                <a href="https://profile.indeed.com/?hl=en_PH&co=PH&from=gnav-homepage" target="_blank"
+                    class="social-link" title="Indeed">ID</a>
+            </div>
+        </div>
+    </nav>
+
+    <header style="position: relative;">
+        <h1 class="hero-title animate-on-load delay-2">Hello there! This is <span class="hero-span">R.A
+                Orozco's</span><br>portfolio.</h1>
+        <p class="animate-on-load delay-3" style="max-width: 550px; color: var(--text-s);">I'm a BSIT student at EARIST
+            Manila, passionate about visual
+            tech. I focus on making apps and websites look clean, feel intuitive, and come to life quickly.</p>
+
+        <div class="scroll-indicator animate-on-load delay-4">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="card reveal" id="about">
+            <span class="tag">Identity</span>
+            <h2>This is<br>Rhosley Arman</h2>
+            <p>Based in Sampaloc, Manila, I am a fast learner and BSIT student. I focus on the layout and look of a
+                project, using modern digital tools to build working prototypes efficiently. I'm actively seeking an OJT
+                opportunity to support a team and learn the industry.</p>
+            <div class="skills-grid">
+                <div class="skill-node">Fast Learner</div>
+                <div class="skill-node">Adaptability</div>
+                <div class="skill-node">Problem-Solving</div>
+                <div class="skill-node">Team Collaboration</div>
+            </div>
+        </section>
+
+        <section class="card reveal" id="projects">
+            <span class="tag">Flagship Work</span>
+            <h2>Featured Projects</h2>
+            <div style="margin-bottom: 35px;">
+                <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                    <span class="tag"
+                        style="padding: 2px 10px; font-size: 0.6rem; background: rgba(0,0,0,0.05);">Flutter</span>
+                    <span class="tag"
+                        style="padding: 2px 10px; font-size: 0.6rem; background: rgba(0,0,0,0.05);">Firebase</span>
+                </div>
+                <h3 style="color: var(--text-p); margin-bottom: 5px; font-size: 1.1rem;">Gible App</h3>
+                <p style="margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; color: var(--text-s);">An
+                    <strong>Adaptive Gamified Learning</strong> app for SNED learners. Implemented Bayesian Tracking
+                    Knowledge to map learning trajectories, resulting in a more personalized education tool.
+                </p>
+                <a href="#" class="tag" style="text-decoration: none; margin-bottom: 0;">Technical Overview &rarr;</a>
+            </div>
+            <div style="margin-bottom: 35px;">
+                <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                    <span class="tag"
+                        style="padding: 2px 10px; font-size: 0.6rem; background: rgba(0,0,0,0.05);">Real-time Map</span>
+                    <span class="tag"
+                        style="padding: 2px 10px; font-size: 0.6rem; background: rgba(0,0,0,0.05);">Geolocalization</span>
+                </div>
+                <h3 style="color: var(--text-p); margin-bottom: 5px; font-size: 1.1rem;">Tree Tracking App</h3>
+                <p style="margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; color: var(--text-s);">A
+                    sustainability-focused application to monitor planted trees via <strong>real-time geospatial
+                        mapping</strong>. Built to encourage environmental accountability through data visualization.
+                </p>
+                <a href="#" class="tag" style="text-decoration: none; margin-bottom: 0;">Case Study &rarr;</a>
+            </div>
+            <div style="margin-bottom: 0px;">
+                <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                    <span class="tag" style="padding: 2px 10px; font-size: 0.6rem; background: rgba(0,0,0,0.05);">UI
+                        Design</span>
+                    <span class="tag"
+                        style="padding: 2px 10px; font-size: 0.6rem; background: rgba(0,0,0,0.05);">Prototyping</span>
+                </div>
+                <h3 style="color: var(--text-p); margin-bottom: 5px; font-size: 1.1rem;">Bakery Shop</h3>
+                <p style="margin-bottom: 15px; font-size: 0.95rem; line-height: 1.6; color: var(--text-s);">Designed a
+                    <strong>high-conversion user interface</strong> for a local bakery, focusing on intuitive navigation
+                    and visual storytelling through product menus.
+                </p>
+                <a href="#" class="tag" style="text-decoration: none; margin-bottom: 0;">View Interaction &rarr;</a>
+            </div>
+            <div class="skills-grid" style="margin-top: 25px;">
+                <div class="skill-node">Prototyping</div>
+                <div class="skill-node">App Development</div>
+                <div class="skill-node">UI/UX Design</div>
+            </div>
+        </section>
+
+        <section class="card reveal" id="tech">
+            <span class="tag">Technical Stack</span>
+            <h2>The Toolkit</h2>
+            <p>Leveraging modern languages and software-assisted development tools to build accessible and solid
+                applications.</p>
+            <div class="skills-grid">
+                <div class="skill-node">HTML5 / CSS3 / JS</div>
+                <div class="skill-node">Flutter</div>
+                <div class="skill-node">Firebase</div>
+                <div class="skill-node">Canva</div>
+                <div class="skill-node">AI Tools (Cursor, Gemini)</div>
+            </div>
+        </section>
+
+        <section class="card reveal" id="honors">
+            <span class="tag">Certifications</span>
+            <h2>Milestones</h2>
+            <p>Continuously expanding knowledge and staying up-to-date with industry practices through professional
+                webinars.</p>
+            <div class="skills-grid">
+                <div class="skill-node">ServiceNow Fundamentals</div>
+                <div class="skill-node">Gen AI in Software Dev</div>
+                <div class="skill-node">Data Privacy & Security</div>
+                <div class="skill-node">Project Management Tech</div>
+            </div>
+
+        </section>
+
+        <section class="card reveal" id="contact">
+            <span class="tag">Connectivity</span>
+            <h2>Let's connect</h2>
+            <p>Seeking OJT opportunities where I can contribute to design-driven development teams, accept mentorship,
+                and grow.</p>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="mailto:raorozco12@gmail.com" class="btn">Email Me</a>
+                <a href="tel:+639948183720" class="btn"
+                    style="background: transparent; border: 1px solid var(--accent); color: var(--accent);">Call: +63
+                    994 818 3720</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- 
+      NEW DEDICATED VIEW FOR CERTIFICATES
+      Appears after all cards are fully scrolled and stacked. 
+    -->
+    <section class="cert-showcase reveal"
+        style="position: relative; z-index: 10; padding: 100px 20px 0; background: var(--bg);">
+        <div style="max-width: 900px; margin: 0 auto; padding-bottom: 100px;">
+            <div style="text-align: center; margin-bottom: 50px;">
+                <span class="tag">Showcase</span>
+                <h2>Document Previews</h2>
+                <p style="margin: 0 auto; max-width: 600px;">Detailed view of my recent certifications, achievements,
+                    and completed courses.</p>
+            </div>
+
+            <div class="cert-grid">
+                <!-- Cert 1 -->
+                <a href="./Rhosley Arman Orozco.pdf" target="_blank" class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="./Rhosley_Arman_Orozco_thumb.png" alt="ServiceNow Fundamentals Thumbnail"
+                            style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s; border-radius: 16px 16px 0 0;">
+                    </div>
+                    <div class="cert-info">
+                        <div class="cert-title">ServiceNow Fundamentals</div>
+                        <div class="cert-issuer">Completed Certificate</div>
+                    </div>
+                </a>
+
+                <!-- Cert 2 -->
+                <a href="./Rhosley Arman R. Orozco.pdf" target="_blank" class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="./Rhosley_Arman_R._Orozco_thumb.png" alt="Gen AI in Software Dev Thumbnail"
+                            style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s; border-radius: 16px 16px 0 0;">
+                    </div>
+                    <div class="cert-info">
+                        <div class="cert-title">Gen AI in Software Dev</div>
+                        <div class="cert-issuer">Completed Certificate</div>
+                    </div>
+                </a>
+
+                <!-- Cert 3 -->
+                <a href="./RHOSLEY ARMAN R. OROZCO - 3RD SESSION.pdf" target="_blank" class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="./RHOSLEY_ARMAN_R._OROZCO_-_3RD_SESSION_thumb.png" alt="Data Privacy Thumbnail"
+                            style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s; border-radius: 16px 16px 0 0;">
+                    </div>
+                    <div class="cert-info">
+                        <div class="cert-title">Data Privacy & Security</div>
+                        <div class="cert-issuer">3rd Session Certificate</div>
+                    </div>
+                </a>
+
+                <!-- Cert 4 -->
+                <a href="./Rhosley Arman R. Orozco(0).pdf" target="_blank" class="cert-card">
+                    <div class="cert-img-wrapper">
+                        <img src="./Rhosley_Arman_R._Orozco0_thumb.png" alt="Project Management Tech Thumbnail"
+                            style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s; border-radius: 16px 16px 0 0;">
+                    </div>
+                    <div class="cert-info">
+                        <div class="cert-title">Project Management Tech</div>
+                        <div class="cert-issuer">Completed Certificate</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-container">
+            <img class="modal-content" id="modal-img">
+            <iframe id="modal-pdf" src="" class="modal-content" style="display: none; border: none;"></iframe>
+        </div>
+        <div id="modal-caption"></div>
+    </div>
+
+    <footer>
+        &copy; 2026 R.A OROZCO &bull; Portfolio
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
